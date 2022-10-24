@@ -1,6 +1,10 @@
+
 h1 {
-        font-family: "Times New Roman", Times, serif; color: black;
+        font-family: "Times New Roman", Times, serif; color: rgb(14, 13, 13);
         font-size: 24pt; 
+        margin-left: -110px;
+        
+       
         }
 h2 {
         color: blue; font-size: 12pt;
@@ -15,13 +19,39 @@ h4 {
         color: black;text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 8pt;
 }
 
+.titulo1{
+        position:absolute;
+        margin-top: -10vh;
+}
+p {
+        color: rgb(0, 0, 0);
+        margin-left: -110px;
+        text-align: justify;
+        margin-top: -4px;
+}
+
+.titulo2{
+        position:absolute;
+        margin-top: 8vh;
+}
+#celular{
+        margin-left: 20px;
+        
+}
+
+.botao{
+        margin-top: 150px;
+}
+
 .container-fluid {
         background-color: #a2b2c3;
-        height: 60px;
+        height: 80px;
+        margin: -1rem 0rem;
        
     }
     .d-flex{
         width: 400px;
+       
     }
     .carousel-inner{
         background-color: #eeeeef;
@@ -37,4 +67,91 @@ h4 {
         margin-left: 80px;
         max-width: 400px;
         max-height: 400px;
+        
+        
+}       
+
+.form-control{
+        width: 500px;
+        
+    }
+.card{
+        background-color: #A2B2C3;
+        align-items: center;
+        width: 630px;
+        border-radius: 2rem;
+        padding: 1rem;
+        
+
+}
+
+.formsistema .card{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+
+}
+.minhaconta{
+        
+}
+
+.areacliente{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        height: 100px;
+
+}
+        
+
+
+.criarconta{
+        
+       margin-left: 90px;
+      
+}
+
+.login{
+        position:absolute;
+        margin-left: -300px; 
+        margin-top: -270px;
+        max-width: 300px;
+        max-height: 400px;  
+}
+
+.notebooks_pag_venda{
+        max-height: 400px;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+.h_note_vendas{
+        margin: 10px 30px 10px 30px;
+}
+
+.celulares_pag_venda{
+        max-height: 400px;
+        padding-left: 20px;
+        padding-top: 20px;
+        
+    }
+.h_cel_vendas{
+        margin: 10px 30px 10px 30px;
+       
+}
+body{
+        background-color: #f5f5f7;
+}
+.white{
+        color: white; 
+        text-decoration:none;
+}
+
+.white:hover{
+        color: white; 
+        text-decoration:none;
+}
+.corfundo{
+        background-color: #ffffff; 
 }
